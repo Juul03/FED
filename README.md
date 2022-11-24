@@ -66,6 +66,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. Als de gebruiker een item in zijn winkelwagen doet, krijgt hij geen audio-feedback dat dit gelukt is.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  1. -
+  2. Een aria-label toevoegen bij de linkjes (a-tags) van producten die ook een afbeelding bevatten en de alt-tekst van de afbeelding leeg laten.
+  3. Automatische audio-feedback toevoegen.
 
 
   #### Muis en Toetsenbord 
@@ -81,6 +84,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  1. -
+  2. Hover feedback toevoegen door bijvoorbeeld de kleur van het lettertype aan te passen, de gehele achtergrond van kleur te veranderen, vergroten van de tekst, tekst te omlijnen, etc.
+  3. Active state toevoegen zodat gebruikers kunnen zien waar ze geklikt hebben.
 
 
   #### Motoriek (shocks, elastiekjes)
@@ -124,10 +130,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
+  <img src="readme-images/homepagebreakdown1.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/homepagebreakdown2.jpg" width="375px" alt="breakdown van sections hele pagina">
+  
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/homepagedynamischbreakdown.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
