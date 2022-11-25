@@ -170,9 +170,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1 - Kim      | student 2 - Tim        | student 3 - Julia (ik)   | student 4 - Robin       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | 1. Hoe kan ik gebruikers door een carousel laten skippen d.m.v. buttons?    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | 2. Hoe kan ik m'n hamburgermenu full-screen tonen? Ja, display:block; , maar die class via JS toevoegen of anders?| dit wil ik zeker |
-  |                |                    |3. Met 3 css-style sheets, kan ik de variabele van kleuren in 1 sheet zetten en die dan in de andere twee sheets gebruiken?| |
+  | dit bespreken  | 1. Hoe kan ik een functioneel schaakbord maken?           | 1. Hoe kan ik gebruikers door een carousel laten skippen d.m.v. buttons?    | en dan ik dat    |
+  | en dat ook nog | 2. Hoe zorg ik ervoor dat mijn elements responsive blijven? | 2. Hoe kan ik m'n hamburgermenu full-screen tonen? Ja, display:block; , maar die class via JS toevoegen of anders?| dit wil ik zeker |
+  |                | 3. Hoe geef ik de gebruiker een light-mode optie?                   |3. Met 3 css-style sheets, kan ik de variabele van kleuren in 1 sheet zetten en die dan in de andere twee sheets gebruiken?| |
   | ...            | ...                | ...          | ...              |
 
 
