@@ -152,7 +152,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   ### Progress week 1
-  <img src="readme-images/progresweek1.jpg" width="375px" alt="progress week 1">
+  <img src="readme-images/progresweek1.png" width="375px" alt="progress week 1">
   
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   Goed:
@@ -161,8 +161,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   3. met css de html elementen rangschikken zodat het visueel aantrekkelijker wordt (bv door middel van flexbox)
   
   ### 3. html elementen visueel omdraaien
-   <img src="readme-images/progresweek1carousel.jpg" width="375px" alt="progress week 1 carousel">
-   <img src="readme-images/progresweek1carouselhtml.jpg" width="375px" alt="progress week 1 carousel html">
+   <img src="readme-images/progresweek1carousel.png" width="375px" alt="progress week 1 carousel">
+   <img src="readme-images/progresweek1carouselhtml.png" width="375px" alt="progress week 1 carousel html">
 
 
   ### Agenda voor meeting
