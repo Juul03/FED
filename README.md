@@ -215,6 +215,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ...            | ...                | ...          | ...              |
 
 
+note: punt 1 van mij (Julia) al opgelost voordat het gesprekje begon. Door overflow:hidden; op de carousel te zetten (container).
+
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
