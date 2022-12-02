@@ -198,17 +198,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-   <img src="readme-images/fullprogresweek2" width="375px" alt="progress week 2">
+   <img src="readme-images/fullprogresweek2.png" width="375px" alt="progress week 2">
    <img src="readme-images/progressweek2carousel.png" width="375px" alt="progress week 2 carousel">
+  
+  Dit ging goed:
+  1. Kopje "Service & Contact" stylen met grid
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1 - Kim      | student 2 - Tim          | student 3 - Julia    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | dit bespreken  | en dit             | 1. Erg leuk dat die pijltjes van mijn carousel buiten beeld staan, maar kunnen die ook zo gemaakt worden dat ik niet naar de zijkant kan scrollen?    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | 2. Voor mijn productpagina heb ik een tabel nodig. Kan ik ergens een juiste HTML-structuur hiervoor vinden? | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
