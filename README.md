@@ -210,7 +210,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1 - Kim      | student 2 - Tim          | student 3 - Julia    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | 1. Erg leuk dat die pijltjes van mijn carousel buiten beeld staan, maar kunnen die ook zo gemaakt worden dat ik niet naar de zijkant kan scrollen?    | en dan ik dat    |
+  | Hoe bepaal ik mijn breakpoints van de website? Houd ik de origenele aan?  | Tim is oppermaster in code en heeft geen vragen             | 1. Erg leuk dat die pijltjes van mijn carousel buiten beeld staan, maar kunnen die ook zo gemaakt worden dat ik niet naar de zijkant kan scrollen?    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | 2. Voor mijn productpagina heb ik een tabel nodig. Kan ik ergens een juiste HTML-structuur hiervoor vinden? | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
