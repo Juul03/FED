@@ -333,7 +333,7 @@ note: punt 1 van mij (Julia) al opgelost voordat het gesprekje begon. Door overf
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
+  1.[ bron 1](https://www.coding-dude.com/wp/css/css-star/) voor de ster bij reviews
   2. bron 2
   3. ...
 
