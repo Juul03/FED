@@ -7,13 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Bol.com rip-off</title>
+	<link rel="stylesheet" href="styles/generalstyles.css">
+	<link rel="stylesheet" href="styles/homestyles.css">
 	
-	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.png">
 </head>
 
 <body>
 	<header>
+		<h1 class="visually-hidden">Welkom bij Bol.com</h1>
+		
 		<a href="#" aria-label="naar de homepage van bol.com">
 			<img src="images/nav/woordmerk.svg" alt="">
 		</a>
@@ -21,12 +24,12 @@
 		<button><img src="./images/nav/hamburgermenu.svg" alt="hamburgermenu"></button>
 
 		<nav>
-			<button>
+			<button aria-label="open menu">
 				<svg version="1.1" viewBox="0 0 14 14" aria-hidden="true" class="svg-inline--bi bi-cross bi-lg" data-test="icon-cross" focusable="false"><path fill-rule="evenodd" d="M7 7.378l3.363 3.363a.496.496 0 00.703-.004c.19-.19.197-.51.004-.703L7.707 6.67l3.363-3.363a.496.496 0 00-.004-.703.502.502 0 00-.703-.004L7 5.964 3.637 2.6a.496.496 0 00-.703.004.502.502 0 00-.004.703L6.293 6.67 2.93 10.034a.496.496 0 00.004.703c.19.19.51.197.703.004L7 7.378z"></path>
 				</svg>
 			</button>
 
-			<ul>
+			<ul inert>
 				<li>
 					<a href="#">
 						Boeken
@@ -151,7 +154,6 @@
 	</header>
 
 	<main>
-		<h1 class="visually-hidden">Welkom bij Bol.com</h1>
 
 		<!-- deals -->
 		<section>
@@ -202,58 +204,6 @@
 				<a href="next" aria-label="Naar volgende categorie"></a>
 				
 			</section>
-
-			<!-- <ul>
-				<li id="categorie1">
-					<a href="#">
-						<h3>Boeken</h3>
-						<img src="./images/categrieboeken.jpg" alt="categorie boeken">
-					</a>
-					
-				</li>
-
-				<li id="categorie2">
-					<a href="#">
-						<h3>Elektronica</h3>
-						<img src="./images/categorieelektronica.jpg" alt="categorie elektronica">
-					</a>
-				</li>
-
-				<li id="categorie3">
-					<a href="#">
-						<h3>Speelgoed</h3>
-						<img src="./images/categoriespeelgoed.jpg" alt="categorie elektronica">
-					</a>
-				</li>
-
-				<li id="categorie4">
-					<a href="#">
-						<h3>Baby</h3>
-						<img src="./images/categoriebaby.jpg" alt="categorie speelgoed">
-					</a>
-				</li>
-
-				<li id="categorie5">
-					<a href="#">
-						<h3>Beauty</h3>
-						<img src="./images/categoriebeauty.jpg" alt="categorie elektronica">
-					</a>
-				</li>
-
-				<li id="categorie6">
-					<a href="#">
-						<h3>Klussen</h3>
-						<img src="./images/categoriekerstklussentuindier.jpg" alt="categorie speelgoed">
-					</a>
-				</li>
-			</ul>
-
-			<nav>
-				<ul>
-					<li><a href="#categorie1">x</a></li>
-					<li><a href="#categorie6">x</a></li>
-				</ul> -->
-			</nav>
 		</section>
 
 		<!--advertentie-->
@@ -270,17 +220,99 @@
 		<!--trending-->
 		<section>
 			<h2>Nu trending</h2>
-			<a href="#">Bekijk al je persoonlijke aanbevelingen</a>
+			<a href="#">Bekijk al je persoonlijke aanbevelingen
+				<span></span>
+				<span></span>
+			</a>
 			<ul>
 				<li>
-					<a href="#">
-						<h3>productnaam</h3>
+					<a href="./productpage.html">
+						<h3>Dreamhouse Soft Terry - Badjas - Katoen badstof - S/M - Grijs - Ultra zacht en warm</h3>
+						<!-- overflow hidden op zetten zodat niet de hele titel in beeld is -->
 						<ul>
-							<li>prijs</li>
-							<li>adviesprijs</li>
+							<li aria-label="prijs">€22,99</li>
+							<li>Adviesprijs €28,95</li>
 						</ul>
-						<img src="#" alt="productfoto">
-						<button><img src="#" alt="toevoegen aan favorieten"></button>
+						<img src="./images/trendingbadjas.jpg" alt="badjas">
+						<button>
+							<svg version="1.1" viewBox="0 0 24 24" aria-hidden="true" class="svg-inline--bi bi-heart-vi bi-lg bi-hide" data-test="icon-heart-vi" focusable="false"><path d="M12 23.2l-.6-.4C3.5 17.2 0 12.9 0 9c0-3.5 2-6.7 4.9-7.9C7.3.2 9.8.7 12 2.6 14.2.7 16.7.2 19.1 1.1 22 2.3 24 5.5 24 9c0 3.9-3.5 8.2-11.4 13.8l-.6.4zM7.3 2.7c-.6 0-1.1.1-1.6.3C3.6 3.8 2 6.4 2 9c0 3 3.3 6.9 10 11.8C18.7 15.9 22 12 22 9c0-2.6-1.6-5.2-3.7-6-1.8-.7-3.8-.2-5.6 1.7l-.7.7-.7-.7c-1.3-1.3-2.7-2-4-2z"></path>
+							</svg>
+						</button>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Fleece Panty Zwart - Gevoerde Panty - Fleece Legging - Thermo Panty - Tiktok Panty - Maat S/M</h3>
+						<ul>
+							<li aria-label="prijs">€29,99</li>
+							<li>Prijstip</li>
+						</ul>
+						<img src="./images/trendingfleecepanty.jpg" alt="Fleecepanty">
+						<button>
+							<svg version="1.1" viewBox="0 0 24 24" aria-hidden="true" class="svg-inline--bi bi-heart-vi bi-lg bi-hide" data-test="icon-heart-vi" focusable="false"><path d="M12 23.2l-.6-.4C3.5 17.2 0 12.9 0 9c0-3.5 2-6.7 4.9-7.9C7.3.2 9.8.7 12 2.6 14.2.7 16.7.2 19.1 1.1 22 2.3 24 5.5 24 9c0 3.9-3.5 8.2-11.4 13.8l-.6.4zM7.3 2.7c-.6 0-1.1.1-1.6.3C3.6 3.8 2 6.4 2 9c0 3 3.3 6.9 10 11.8C18.7 15.9 22 12 22 9c0-2.6-1.6-5.2-3.7-6-1.8-.7-3.8-.2-5.6 1.7l-.7.7-.7-.7c-1.3-1.3-2.7-2-4-2z"></path>
+							</svg>
+						</button>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Matchbox Action Drivers Politiebureau - Speelgoedvoertuig</h3>
+						<ul>
+							<li aria-label="prijs">€23,79</li>
+							<li>Je bespaart 15%</li>
+						</ul>
+						<img src="./images/trendingmatchbox.jpg" alt="matchbox">
+						<button>
+							<svg version="1.1" viewBox="0 0 24 24" aria-hidden="true" class="svg-inline--bi bi-heart-vi bi-lg bi-hide" data-test="icon-heart-vi" focusable="false"><path d="M12 23.2l-.6-.4C3.5 17.2 0 12.9 0 9c0-3.5 2-6.7 4.9-7.9C7.3.2 9.8.7 12 2.6 14.2.7 16.7.2 19.1 1.1 22 2.3 24 5.5 24 9c0 3.9-3.5 8.2-11.4 13.8l-.6.4zM7.3 2.7c-.6 0-1.1.1-1.6.3C3.6 3.8 2 6.4 2 9c0 3 3.3 6.9 10 11.8C18.7 15.9 22 12 22 9c0-2.6-1.6-5.2-3.7-6-1.8-.7-3.8-.2-5.6 1.7l-.7.7-.7-.7c-1.3-1.3-2.7-2-4-2z"></path>
+							</svg>
+						</button>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Playmobil Wiltopia - Dierenreddingsquad 71011</h3>
+						<ul>
+							<li aria-label="prijs">€24,99</li>
+							<li>Op voorraad</li>
+						</ul>
+						<img src="./images/trendingplaymobil.jpg" alt="playmobil">
+						<button>
+							<svg version="1.1" viewBox="0 0 24 24" aria-hidden="true" class="svg-inline--bi bi-heart-vi bi-lg bi-hide" data-test="icon-heart-vi" focusable="false"><path d="M12 23.2l-.6-.4C3.5 17.2 0 12.9 0 9c0-3.5 2-6.7 4.9-7.9C7.3.2 9.8.7 12 2.6 14.2.7 16.7.2 19.1 1.1 22 2.3 24 5.5 24 9c0 3.9-3.5 8.2-11.4 13.8l-.6.4zM7.3 2.7c-.6 0-1.1.1-1.6.3C3.6 3.8 2 6.4 2 9c0 3 3.3 6.9 10 11.8C18.7 15.9 22 12 22 9c0-2.6-1.6-5.2-3.7-6-1.8-.7-3.8-.2-5.6 1.7l-.7.7-.7-.7c-1.3-1.3-2.7-2-4-2z"></path>
+							</svg>
+						</button>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Inventum SZ300 - Stofzuigerzak</h3>
+						<ul>
+							<li aria-label="prijs">€7,-</li>
+							<li>Je bespaart €1,75,- </li>
+						</ul>
+						<img src="./images/trendingstofzuigerzakken.jpg" alt="Stofzuigerzakken">
+						<button>
+							<svg version="1.1" viewBox="0 0 24 24" aria-hidden="true" class="svg-inline--bi bi-heart-vi bi-lg bi-hide" data-test="icon-heart-vi" focusable="false"><path d="M12 23.2l-.6-.4C3.5 17.2 0 12.9 0 9c0-3.5 2-6.7 4.9-7.9C7.3.2 9.8.7 12 2.6 14.2.7 16.7.2 19.1 1.1 22 2.3 24 5.5 24 9c0 3.9-3.5 8.2-11.4 13.8l-.6.4zM7.3 2.7c-.6 0-1.1.1-1.6.3C3.6 3.8 2 6.4 2 9c0 3 3.3 6.9 10 11.8C18.7 15.9 22 12 22 9c0-2.6-1.6-5.2-3.7-6-1.8-.7-3.8-.2-5.6 1.7l-.7.7-.7-.7c-1.3-1.3-2.7-2-4-2z"></path>
+							</svg>
+						</button>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<h3>Nordevik® Tochtstrip 12 meter - Zelfklevend - Energiebesparing - Voor Ramen en Deuren - E-profiel Tochtstopper - Tochtband - Tochtwering - Hoogwaardig foam - Woning verduurzamen - 4 x 9mm</h3>
+						<ul>
+							<li aria-label="prijs">€13,99</li>
+							<li>Je bespaart 13%</li>
+						</ul>
+						<img src="./images/trendingtochtstrip.jpg" alt="tochtstrip">
+						<button>
+							<svg version="1.1" viewBox="0 0 24 24" aria-hidden="true" class="svg-inline--bi bi-heart-vi bi-lg bi-hide" data-test="icon-heart-vi" focusable="false"><path d="M12 23.2l-.6-.4C3.5 17.2 0 12.9 0 9c0-3.5 2-6.7 4.9-7.9C7.3.2 9.8.7 12 2.6 14.2.7 16.7.2 19.1 1.1 22 2.3 24 5.5 24 9c0 3.9-3.5 8.2-11.4 13.8l-.6.4zM7.3 2.7c-.6 0-1.1.1-1.6.3C3.6 3.8 2 6.4 2 9c0 3 3.3 6.9 10 11.8C18.7 15.9 22 12 22 9c0-2.6-1.6-5.2-3.7-6-1.8-.7-3.8-.2-5.6 1.7l-.7.7-.7-.7c-1.3-1.3-2.7-2-4-2z"></path>
+							</svg>
+						</button>
 					</a>
 				</li>
 			</ul>
@@ -348,14 +380,12 @@
 		<section>
 			<ul>
 				<li>
-					<img src="" alt="Woordmerk bol.com, de winkel van ons allemaal">
+					<img src="./images/bolwoordmerk.png" alt="Woordmerk Bol, de winkel van ons allemaal">
 				</li>
 
 				<li>
-					<figure>
-						<img src="" alt="Thuiswinkel waarborg">
-						<figcaption>Geldt voor aankopen bij <a href="#">Thuiswinkel-leden</a></figcaption>
-					</figure>
+					<p>Geldt voor aankopen bij <a href="#">Thuiswinkel-leden</a></p>
+					<img src="./images/thuiswinkelwaarborg.svg" alt="Thuiswinkel waarborg">
 				</li>
 				<li>Algemene voorwaarden</li>
 				<li>Privacy</li>
