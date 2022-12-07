@@ -1,0 +1,97 @@
+/* border-spacing:0; */
+
+/* product in het kort */
+main > section:first-of-type ul {
+    display:flex;
+    flex-wrap:wrap;
+    
+    align-items: center;
+    
+    width:80%;
+}
+
+main > section:first-of-type ul li {
+    border-left: solid .2em #d3d3d3;
+    margin: 0em .5em;
+    padding:.5em;
+	/* border-right: solid .1em #d3d3d3; */
+}
+
+main > section:first-of-type ul li:nth-of-type(3) {
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+main > section:first-of-type > ul li:nth-of-type(3) div {
+    margin:1em auto;
+    font-size:.8em;
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(35deg);
+ }
+
+main > section:first-of-type > ul li:nth-of-type(3) div:before {
+    border-bottom: 0.8em solid var(--star-color);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -0.45em;
+    left: -0.65em;
+    display: block;
+    content:"";
+    transform: rotate(-35deg);
+}
+
+main > section:first-of-type > ul li:nth-of-type(3) div:after {
+    position: absolute;
+    display: block;
+    top: 0.03em;
+    left: -1.05em;
+    width: 0;
+    height: 0;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid var(--star-color);
+    border-left: 1em solid transparent;
+    transform: rotate(-70deg);
+    content:"";
+}
+
+main > section:first-of-type ul li:last-of-type {
+    border-right: solid .2em #d3d3d3;
+}
+   
+
+/* productfoto's */
+main > section:nth-of-type(2) > img {
+    height:50vh;
+    border:solid black 2em;
+    
+}
+
+main > section:nth-of-type(2) ul {
+    display:flex;
+    flex-direction: row;
+
+    overflow-X:auto;
+}
+
+/* main > section:nth-of-type(2) ul li {
+    width:6.5em;
+}
+
+main > section:nth-of-type(2) ul li img {
+    width:80%;
+} */
+
+/* in winkelwagen */ 
+main > section:nth-of-type(3) ul li:first-of-type button:last-of-type {
+    display:none;
+}
