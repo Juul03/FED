@@ -4,6 +4,7 @@
 main > section:first-of-type ul {
     display:flex;
     flex-wrap:wrap;
+    gap:.2em;
     
     align-items: center;
     
@@ -14,6 +15,8 @@ main > section:first-of-type ul li {
     border-left: solid .2em #d3d3d3;
     margin: 0em .5em;
     padding:.5em;
+
+    font-size:.8em;
 	/* border-right: solid .1em #d3d3d3; */
 }
 
@@ -23,6 +26,7 @@ main > section:first-of-type ul li:nth-of-type(3) {
     align-items: center;
 }
 
+/* bron voor de sterren https://www.coding-dude.com/wp/css/css-star/ */
 main > section:first-of-type > ul li:nth-of-type(3) div {
     margin:1em auto;
     font-size:.8em;
@@ -70,18 +74,56 @@ main > section:first-of-type ul li:last-of-type {
    
 
 /* productfoto's */
+main > section:nth-of-type(2) {
+    display:flex;
+    flex-direction:column;
+    gap:var(--margin-between-sections);
+
+    position:relative;
+}
+
 main > section:nth-of-type(2) > img {
     height:50vh;
-    border:solid black 2em;
+    margin:auto;
     
+}
+
+main > section:nth-of-type(2) > button {
+    position:absolute;
+    top:0;
+    right:2em;
+
+    width:2.5em;
+}
+
+main > section:nth-of-type(2) > button svg path {
+    fill:var(--brand-color);
 }
 
 main > section:nth-of-type(2) ul {
     display:flex;
     flex-direction: row;
+    gap:1em;
+
+    width:100%;
 
     overflow-X:auto;
 }
+
+main > section:nth-of-type(2) ul li {
+    width:30%;
+    border:solid black .2em;
+
+}
+
+/* OM DE AFBEELDINGEN PASSEND TE KRIJGEN IN DE LIST ITEM */
+main > section:nth-of-type(2) ul li img {
+    width:80%;
+}
+
+
+
+
 
 /* main > section:nth-of-type(2) ul li {
     width:6.5em;

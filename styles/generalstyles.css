@@ -20,7 +20,15 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:rgb(255, 255, 255);
+
 	--brand-color:#0000A4;
+	--bright-brand-color: #0404eb;
+
+	--attention-great-price-color:#b30000;
+
+	--adverentie-heading-emp-color-light:#89cff0;
+	--border-color-links:#d3d3d3;
+
 	--star-color:orange;
 
 	--margin-between-sections:2em;
@@ -67,6 +75,10 @@
 /****************/
 
 /* General */
+body {
+	background-color: var(--color-background);
+}
+
 ul {
 	list-style: none;
 }
@@ -126,13 +138,28 @@ header {
 	align-items: center;
 	gap:1em;
 
-	margin-top:.8em;
+	padding-top:.8em;
+
+	background-color: var(--color-background);
 
 }
 
 /* logo */
 header > a {
 	width:9em;
+	transition:var(--basic-transition-time);
+}
+
+header > a:hover {
+	transform:scale(1.2);
+}
+
+header > a:focus {
+	border:solid .2em var(--star-color);
+}
+
+header > a img {
+	width:90%;
 }
 
 
@@ -145,6 +172,14 @@ header > button {
 	order:-100;
 	width:2.5em;
 	aspect-ratio: 1/1;
+
+	transition:var(--basic-transition-time);
+
+}
+
+header > button:hover,
+header nav:nth-of-type(1) button:hover svg {
+	transform: scale(1.3) rotate(180deg);
 
 }
 
@@ -185,37 +220,65 @@ header nav:nth-of-type(1) button {
 	display:flex;
 	justify-content: flex-end;
 	align-items:center;
+
+}
+
+header nav:nth-of-type(1) button:focus svg {
+	background-color:var(--star-color);
+	border-radius:50%;
 }
 
 header nav:nth-of-type(1) button svg {
-	height:1.5em;
+	height:50%;
 	aspect-ratio: 1/1;
+
+	transition:var(--basic-transition-time);
 }
 
 header nav:nth-of-type(1) ul {
 	padding:1em;
 }
 
+header nav:nth-of-type(1) ul li {
+	transition: var(--basic-transition-time);
+}
+
+header nav:nth-of-type(1) ul li:hover,
+header nav:nth-of-type(1) ul li a:focus {
+	box-shadow: .5em 1em 1em var(--border-color-links),
+				-.5em -.5em 1em var(--border-color-links);
+}
+
+header nav:nth-of-type(1) ul li:hover a {
+	font-size:1.3em;
+}
+
 header nav:nth-of-type(1) ul li a {
 	display:flex;
 	flex-direction:row-reverse;
 
-	/* NOG EVEN NAAR KIJKEN */
 	justify-content: space-between;
 	gap:1em;
 
 	align-items:center;
 
-	border-top: solid .1em #d3d3d3;
+	border-top: solid .1em var(--border-color-links);
 
 	padding:.3em;
 
-	color:#111;
+	color:var(--color-text);
+
+	transition:var(--basic-transition-time);
 
 }
 
-header nav:nth-of-type(1) ul li a:last-of-type {
-	border-bottom: solid .1em #d3d3d3;
+header nav:nth-of-type(1) ul li a:focus {
+	font-size:1.3em;
+	border: solid .5em var(--star-color);
+}
+
+header nav:nth-of-type(1) ul li:last-of-type a {
+	border-bottom: solid .1em var(--border-color-links);
 }
 
 header nav:nth-of-type(1) ul li a img {
@@ -226,6 +289,7 @@ header nav:nth-of-type(1) ul li a img {
 header nav:nth-of-type(1).open {
 	transform:translateX(0%);
 }
+
 
 /* header nav wensenlijst, account en winkelwagen */
 header nav:nth-of-type(2) {
@@ -355,7 +419,7 @@ header form button svg {
 	display:block;
 	width:75%;
 	height:75%;
-	/* fill:var(--brand-color); */
+	fill:var(--brand-color);
 
 }
 
@@ -388,6 +452,11 @@ header form:hover button svg {
 	}
 }
 
+/* main */
+main {
+	background-color: var(--color-background);
+}
+
 /* footer */
 
 /* Ontdek alles bij bol.com*/
@@ -397,8 +466,10 @@ footer section:first-of-type ul {
 }
 
 footer section:first-of-type ul li {
-	border-bottom: solid .1em #d3d3d3;
+	border-bottom: solid .1em var(--border-color-links);
 	padding:1em;
+
+	color:var(--color-text);
 }
 
 
@@ -458,8 +529,10 @@ footer > section:nth-of-type(2) ul {
 }
 
 footer > section:nth-of-type(2) ul li {
-	border-bottom: solid .1em #d3d3d3;
+	border-bottom: solid .1em var(--border-color-links);
 	padding:1em;
+
+	color:var(--color-text);
 }
 
 
@@ -472,7 +545,7 @@ footer > section:nth-of-type(3) {
 
 	width:95%;
 
-	border-bottom: solid .1em #d3d3d3;
+	border-bottom: solid .1em var(--border-color-links);
 
 }
 
@@ -489,10 +562,12 @@ footer > section:nth-of-type(3) ul {
 
 footer > section:nth-of-type(3) p {
 	margin:1em auto;
+
+	color:var(--color-text);
 }
 
 footer > section:nth-of-type(3) p a {
-	color:#0404eb;
+	color:var(--brand-color);
 }
 
 footer > section:nth-of-type(3) ul li {
@@ -531,6 +606,8 @@ footer > section:nth-of-type(4) ul li {
 	display:flex;
 	flex-direction: column;
 	margin:auto;
+
+	color:var(--color-text);
 
 }
 
@@ -572,8 +649,8 @@ footer > section:nth-of-type(4) ul li:nth-of-type(6) {
 
 	font-size:.7em;
 
-	border-left: solid .1em #d3d3d3;
-	border-right: solid .1em #d3d3d3;
+	border-left: solid .1em var(--border-color-links);
+	border-right: solid .1em var(--border-color-links);
 }
 
 footer > section:nth-of-type(4) ul li:nth-of-type(6) {
@@ -586,4 +663,31 @@ footer > section:nth-of-type(4) > p {
 
 	font-size:.6em;
 	text-align:center;
+
+	color:var(--color-text);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root{
+		--color-text:gold;
+		--color-background:#121212;
+	
+		--brand-color:#b3b3f9;
+		--bright-brand-color: #6d6d94;
+	
+		--attention-great-price-color:#ff4d4d;
+	
+		--adverentie-heading-emp-color-light:#ffff;
+		--border-color-links:#d3d3d3;
+	
+		--star-color:orange;
+	}
+
+	header nav:nth-of-type(2) ul li a:focus svg path {
+		fill: var(--color-background);
+	
+	}
+
+
+
 }
