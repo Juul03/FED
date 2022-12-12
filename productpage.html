@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-		<a href="#" aria-label="naar de homepage van bol.com">
+		<a href="./index.html" aria-label="naar de homepage van bol.com">
 			<img src="images/nav/woordmerk.svg" alt="">
 		</a>
 
@@ -25,7 +25,7 @@
 				</svg>
 			</button>
 
-			<ul>
+			<ul inert>
 				<li>
 					<a href="#">
 						Boeken
@@ -181,8 +181,10 @@
 
 		<section>
 			<h2 class="visually-hidden">Productfoto's</h2>
-			<img src="./images/productafbeelding1.jpg" alt="Chromecast">
-
+			<figure>
+				<img src="./images/productafbeelding1.jpg" alt="Chromecast">
+			</figure>
+			
 			<ul>
 				<li><img src="./images/productafbeelding1.jpg" alt="Chromecast"></li>
 				<li><img src="./images/productafbeelding2.jpg" alt="Video van chromecast"></li>
@@ -224,89 +226,104 @@
 
 			<h2>Bezorgopties</h2>
 			<ul>
-				<li>Vandaag nog in huis (bestel ma-vr voor 12:00, bezorging tussen 17:00 en 22:00)</li>
-				<li>Doordeweeks ook ’s avonds in huis</li>
-				<li>Ook zondag in huis (bestel voor za 23:59)</li>
-				<li><a href="#"></a>Bekijk alle bezorgopties</li>
+				<li><em>Vandaag</em> nog in huis (bestel ma-vr voor 12:00, bezorging tussen 17:00 en 22:00)</li>
+				<li>Doordeweeks ook <em>’s avonds</em> in huis</li>
+				<li>Ook <em>zondag </em>in huis (bestel voor za 23:59)</li>
 			</ul>
+
+			<a href="#"> > Bekijk alle bezorgopties</a>
 		</section>
 
 		<section>
 			<h2>Productspecificaties</h2>
-			<table>
-				<thead>
-					<tr>
-						<th colspan="2">Productinformatie</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Merk</td>
-						<td>Google</td>
-					</tr>
-				</tbody>
-			</table>
-		
-			<table>
-				<thead>
-					<tr>
-						<th colspan="2">Opname en opslag</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Opslagcapiciteit</td>
-						<td>0GB</td>
-					</tr>
-				</tbody>
-			</table>
-		
-			<table>
-				<thead>
-					<tr>
-						<th colspan="2">Aansluitingen</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Ethernet verbinding</td>
-						<td>0</td>
-					</tr>
-					<tr>
-						<td>Aantal USB 2.0 poorten</td>
-						<td>0</td>
-					</tr>
-		
-					<tr>
-						<td>Aantal USB 3.0 poorten (USB 3.1 Gen 1 Type A)</td>
-						<td>1</td>
-					</tr>
-				</tbody>
-			</table>
-		
-			<table>
-				<thead>
-					<tr>
-						<th colspan="2">Garantie</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Fabrieksgarantie termijn</td>
-						<td>2 jaar</td>
-					</tr>
-					<tr>
-						<td>Reparatie type</td>
-						<td>Carry-in</td>
-					</tr>
-		
-					<tr>
-						<td>Uitzonderingen fabrieksgarantie</td>
-						<td>Schade</td>
-					</tr>
-				</tbody>
-			</table>
+			
+			<button aria-label="Klik hier voor alle productspecificaties">
+				<span></span>
+				<span></span>
+			</button>
 
+			<section>
+				<button aria-label="productspecificaties sluiten">
+					<img src="./images/productafbeelding1.jpg" alt="">
+					Google ChromeCast
+				</button>
+				<h2>Productspecificaties</h2>
+
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">Productinformatie</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Merk</td>
+							<td>Google</td>
+						</tr>
+					</tbody>
+				</table>
+			
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">Opname en opslag</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Opslagcapiciteit</td>
+							<td>0GB</td>
+						</tr>
+					</tbody>
+				</table>
+			
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">Aansluitingen</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Ethernet verbinding</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Aantal USB 2.0 poorten</td>
+							<td>0</td>
+						</tr>
+			
+						<tr>
+							<td>Aantal USB 3.0 poorten (USB 3.1 Gen 1 Type A)</td>
+							<td>1</td>
+						</tr>
+					</tbody>
+				</table>
+			
+				<table>
+					<thead>
+						<tr>
+							<th colspan="2">Garantie</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Fabrieksgarantie termijn</td>
+							<td>2 jaar</td>
+						</tr>
+						<tr>
+							<td>Reparatie type</td>
+							<td>Carry-in</td>
+						</tr>
+			
+						<tr>
+							<td>Uitzonderingen fabrieksgarantie</td>
+							<td>Schade</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			
 		</section>
 
 		<section>
@@ -552,5 +569,7 @@
 
 	</footer>
     
+	<script defer src="./scripts/productscript.js"></script>
+	<script defer src="./scripts/generalscript.js"></script>
 </body>
 </html>

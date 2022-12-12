@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood
 
   #### Je focus:
-  Surface plane
+  Responsive
  
 </details>
 
@@ -239,7 +239,7 @@ note: Punt 1 is al voor de meeting opgelost met overflow-X:hidden;
   Hier korte omschrijving (met indien nodig afbeeldingen)
   1. Als de gebruiker het menu opent, zegt de aria-label op de sluitbutton "open menu" 
 
-  <img src="readme-images/test2menu.png" width="375px" alt="progress week 2">
+  <img src="readme-images/test2menu.png" width="375px" alt="test menu">
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   2. Aria-label tekst aanpassen naar "sluit menu"
@@ -263,7 +263,7 @@ note: Punt 1 is al voor de meeting opgelost met overflow-X:hidden;
   Hier korte omschrijving (met indien nodig afbeeldingen)
   1. Bij blurred vision is sommige tekst lastig te lezen omdat het font dun is
 
-   <img src="readme-images/test2vision.png" width="375px" alt="progress week 2">
+   <img src="readme-images/test2vision.png" width="375px" alt="test blindheid">
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   1. Dikke modus toevoegen met grote letters en zwaardere fonts (als ik tijd heb)
@@ -281,14 +281,15 @@ note: Punt 1 is al voor de meeting opgelost met overflow-X:hidden;
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  <img src="readme-images/feedbackweek3.png" width="375px" alt="donkere modus">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1 - Kim     | student 2 - Julia         | student 3 - Tim   | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | De javascript koppeling werkte niet, wat doe ik fout?  | Geen vragen             | Mag ik de stappen van mn schaakstukken opslaan in eigen gemaakte html class?    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -296,9 +297,9 @@ note: Punt 1 is al voor de meeting opgelost met overflow-X:hidden;
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - punt 1 - Bij de Java koppeling moet "defer" staan zodat de javascript nagelopen wordt nadat de html is ingeladen.
+  - punt 2 - Het contrast bij bol.com bij de donkere modus was niet overal even goed. Dit kan gecontroleerd worden door te inspecteren. Het contrast moet hoger zijn dan 4,5
+  - punt 3 - Variabele opslaan is het netste als je dit gewoon in een javascript variabele doet en niet in de html class.
   - ...
 
 </details>
@@ -313,19 +314,37 @@ note: Punt 1 is al voor de meeting opgelost met overflow-X:hidden;
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindhomepage.png" width="375px" alt="homepage">
+  <img src="readme-images/eindproductpage.png" width="375px" alt="productpage">
+  <img src="readme-images/eindmenu.png" width="375px" alt="navigatie">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  1. Zorgen dat met tabben de gebruiker alleen door de navigatie kan als het opengeklapt is met "inset" attribute
+  2. Zorgen dat de gebruiker niet over de main kan scrollen als het menu open is met overflow-Y:hidden op de main
+  3. Structuur van een tabel en deze eenvoudig stylen
+  4. Werken met grid
+  5. Werken met positioning
+  6. Javascript een imagesource van een html element laten opslaan
+  
+  ### Dit is wat ik denk wat ik al gedaan heb voor de surface plane:
+  1. Animaties met keyframes gebruikt
+  2. Darkmode toegevoegd en gecontroleerd of het contrast hoog genoeg is (surface plane)
+  3. DOM-manipulatie door de image src aan te passen bij productpagina (surface plane)
+  4. Scroll animaties? Heb snap gebruikt in de categoriën carousel op de homepagina (surface plane)
+  4. Advanced positioning? z-index gebruikt (surface plane)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  ### Dit is wat ik denk wat ik nog moet doen:
+  1. Styling van de productpagina afmaken
+  2. Animatie toevoegen als de gebruiker een item toevoegd aan zijn winkelwagen/wishlist (surface plane)
+  3. Modus toevoegen met extra dikke/grotere letters voor gebruikers die daar behoefte aan hebben (surface plane)
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  1. hover/tab styling is lelijk en voelt niet aan als een echte website
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/lelijkestyling.png" width="375px" alt="lelijke tab">
 </details>
 
 
@@ -340,7 +359,7 @@ note: Punt 1 is al voor de meeting opgelost met overflow-X:hidden;
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. voor de ster-shape van reviews https://www.coding-dude.com/wp/css/css-star/
-  2. bron 2
+  2. Bol.com was mn bae voor alle afbeeldingen en svg's
   3. ...
 
 </details>
