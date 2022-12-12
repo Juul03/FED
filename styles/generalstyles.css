@@ -93,12 +93,15 @@ button {
 	background:none;
 }
 
-a {
+p,
+a,
+td {
 	text-decoration:none;
 	font-family: graphikregular, Arial, Sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3,
+th {
 	font-family:graphikextrabold, sans-serif;
 	color:var(--color-text);
 }
@@ -112,7 +115,8 @@ h2 {
 	margin-left:1em;
 }
 
-h3 {
+h3,
+td {
 	font-size:.8em;
 }
 
@@ -393,6 +397,7 @@ header form button {
 	align-items: center;
 	width:2em;
 	aspect-ratio: 1/1;
+	
 	position: absolute;
 	right:3.8em;
 
