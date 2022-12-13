@@ -237,33 +237,42 @@ note: Punt 1 is al voor de meeting opgelost met overflow-X:hidden;
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  1. Als de gebruiker het menu opent, zegt de aria-label op de sluitbutton "open menu" 
+  1. Als de gebruiker het menu opent, zegt de aria-label op de sluitbutton "open menu"
+  2. Voor de rest is de code screenreader vriendelijk en kan de gebruiker langs alle kopjes en linkjes skippen.
+  3. Goed dat het verborgen menu geskipt wordt en dat de tabtoets niet verdwijnt in het menu
+  4. Netjes aria-labels toegepast op punten waar het nodig is
 
-  <img src="readme-images/test2menu.png" width="375px" alt="test menu">
+  <img src="readme-images/test2menu.jpeg" width="375px" alt="test menu">
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  2. Aria-label tekst aanpassen naar "sluit menu"
+  Hier een omschrijving van hoe het opgelost kan worden
+  1. Aria-label tekst aanpassen naar "sluit menu"
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
   1. Met tabben kan de gebruiker niet zien waar hij is in de caroussel van categoriën
+  2. Voor de rest kan de gebruiker met muis en toetsenbord overal op de site komen en krijgt hij feedback in de verschillende states.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier een omschrijving van hoe het opgelost kan worden
   1. Focus state toevoegen aan carouselitems
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  1. De app is goed te bedienen doordat de knoppen een redelijke grootte hebben. Met parkinson schiet de gebruiker af en toe nog wat uit en kan hij misklikken.
+  2. Vergeleken met de originele site is deze gebruiksvriendelijker door de grotere knoppen em de grotere tekst
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier een omschrijving van hoe het opgelost kan worden
+  1. Een modus maken waar de buttons groter zijn zodat de gebruiker minder snel misklikt
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
   1. Bij blurred vision is sommige tekst lastig te lezen omdat het font dun is
+  2. Met de andere visuele beperkingen zoals kleurenblindheid is de site nogsteeds goed leesbaar en is het contrast voldoende
+  3. Als de gebruiker inzoomt op de browser (ctrl +) schaalt de content goed mee, dus gebruikers die hier behoefte aan hebben kunnen ook zelf de site vergroten door in te zoomen.
 
-   <img src="readme-images/test2vision.png" width="375px" alt="test blindheid">
+   <img src="readme-images/test2vision.jpeg" width="375px" alt="test blindheid">
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
   1. Dikke modus toevoegen met grote letters en zwaardere fonts (als ik tijd heb)
